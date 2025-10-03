@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header-upper-section {
   background-color: #1f2937;
   padding: 10px 50px 100px;
@@ -56,6 +61,7 @@ a {
   background-color: #3882f6;
   color: #e5e7eb;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .main-text {
@@ -76,4 +82,36 @@ a {
 
 .right-links a:hover {
   text-decoration: underline;
+}
+
+.lower-section {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px 60px;
+}
+
+.info-lower-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.images-lower-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-description {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  width: 200px;
 }
