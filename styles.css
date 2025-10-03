@@ -5,6 +5,7 @@
 
 .header-upper-section {
   background-color: #1f2937;
+  padding: 10px 50px 100px;
 }
 
 ul {
@@ -24,4 +25,5 @@ a {
 
 .right-links {
   display: flex;
+  gap: 30px;
 }
