@@ -33,11 +33,15 @@ a {
 .upper-section {
   display: flex;
   margin-top: 100px;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .left-upper-section {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  width: 400px;
 }
 
 .right-upper-section {
